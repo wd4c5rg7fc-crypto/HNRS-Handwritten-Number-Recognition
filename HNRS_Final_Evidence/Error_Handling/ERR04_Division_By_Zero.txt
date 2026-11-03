@@ -1,0 +1,24 @@
+﻿HNRS V7.4 - DIVISION BY ZERO EVALUATOR TEST
+==========================================
+
+Test ID: ERR04
+Date: 03 November 2026
+
+Input: 8/0
+Expected: Error: Division by zero
+Actual: Error: Division by zero
+
+Result: PASS
+
+Test method:
+Direct invocation of calculate_expression()
+from expression_evaluator.py.
+
+Conclusion:
+The mathematical evaluator correctly detects
+division by zero when supplied with the
+correct expression.
+
+Limitation:
+This test does not verify handwritten
+recognition accuracy or GUI behaviour.

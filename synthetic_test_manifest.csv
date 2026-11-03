@@ -1,0 +1,13 @@
+filename,expected_expression,expected_answer,category
+fresh01.png,34+15,49,addition
+fresh02.png,81-26,55,subtraction
+fresh03.png,7*8,56,multiplication
+fresh04.png,96/8,12,division
+fresh05.png,12+4*3,24,precedence
+fresh06.png,(12+8)/4,5,parentheses division
+fresh07.png,6*(9-5),24,parentheses multiplication
+fresh08.png,(24+12)/(3+3),6,two groups division
+fresh09.png,50-6*7,8,precedence
+fresh10.png,(18-6)*2+5,29,mixed operations
+fresh11.png,84/(7+5),7,division grouped
+fresh12.png,(9+3)*(8-5),36,two groups multiplication

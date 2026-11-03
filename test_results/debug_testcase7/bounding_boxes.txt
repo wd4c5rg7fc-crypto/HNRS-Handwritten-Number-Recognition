@@ -1,0 +1,7 @@
+Image: testcase7.jpeg
+Segmented characters: 4
+
+Character 1: (211, 274, 104, 89)
+Character 2: (350, 284, 80, 94)
+Character 3: (596, 262, 83, 125)
+Character 4: (799, 263, 100, 118)

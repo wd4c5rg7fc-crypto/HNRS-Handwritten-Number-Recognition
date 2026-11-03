@@ -1,0 +1,12 @@
+variation,prediction,probability_5,probability_6
+baseline,5,0.889594,0.109888
+size_18,5,0.54487,0.454482
+size_19,5,0.837626,0.162111
+size_21,5,0.805113,0.194866
+size_22,5,0.993469,0.005562
+stroke_thinner,5,0.775337,0.223935
+stroke_thicker,5,0.55269,0.447112
+shift_left,5,0.992184,0.000289
+shift_right,6,0.024541,0.975396
+shift_up,5,0.92978,0.070084
+shift_down,5,0.929516,0.06163

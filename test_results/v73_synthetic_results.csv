@@ -1,0 +1,13 @@
+filename,expected_expression,expected_answer,category,prediction,predicted_answer,transcription_correct,answer_correct,error
+fresh01.png,34+15,49,addition,34+15,49,True,True,
+fresh02.png,81-26,55,subtraction,81-26,55,True,True,
+fresh03.png,7*8,56,multiplication,7*8,56,True,True,
+fresh04.png,96/8,12,division,96/8,12,True,True,
+fresh05.png,12+4*3,24,precedence,12+4*3,24,True,True,
+fresh06.png,(12+8)/4,5,parentheses division,(12+8)/4,5,True,True,
+fresh07.png,6*(9-5),24,parentheses multiplication,6*(9-5),24,True,True,
+fresh08.png,(24+12)/(3+3),6,two groups division,(24+12)/(3+3),6,True,True,
+fresh09.png,50-6*7,8,precedence,50-6*7,8,True,True,
+fresh10.png,(18-6)*2+5,29,mixed operations,(18-6)*2+5,29,True,True,
+fresh11.png,84/(7+5),7,division grouped,84/(7+5),7,True,True,
+fresh12.png,(9+3)*(8-5),36,two groups multiplication,(9+3)*(8-5),36,True,True,

@@ -1,0 +1,25 @@
+﻿.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+
+# Generated submission packages
+HNRS_Final_Submission/
+HNRS_Final_Submission.zip
+HNRS_Final_Evidence.zip
+
+# Temporary and generated files
+*.tmp
+*.bak
+
+# Generated segmentation experiment outputs
+member_sources/member_2/results/

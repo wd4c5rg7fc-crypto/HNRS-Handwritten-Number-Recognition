@@ -1,0 +1,25 @@
+testcase,expected,baseline,shift_right,baseline_correct,shift_correct,baseline_answer,shift_answer
+1,12-5+8,12-5+8,12-5+8,True,True,15,15
+2,15+23,15+23,15+23,True,True,38,38
+3,8+3*4,87384,87384,False,False,87384,87384
+4,26-3*(17-4),26-31(17-4),26-34(13-4),False,False,Error: Invalid mathematical expression,Error: Invalid mathematical expression
+5,18-9,18-9,18-9,True,True,9,9
+6,36/(3+3),362*(3+37,362*(3+37,False,False,Error: Invalid mathematical expression,Error: Invalid mathematical expression
+7,24/6,24/6,24/6,True,True,4,4
+8,7*(9-4),7*(9-4),7*(9-4),True,True,35,35
+9,7+5,7+5,7+5,True,True,12,12
+10,(8+3)*4,68+37+4,68+32+4,False,False,109,104
+11,6*4,6*4,6*4,True,True,24,24
+12,50-27,50-27,50-27,True,True,23,23
+13,15+(6*3)-4,1*466*3)-4,1*466*3)-4,False,False,Error: Invalid mathematical expression,Error: Invalid mathematical expression
+14,100/(5*4),1100/(5847,1100/(5440,False,False,Error: Invalid mathematical expression,Error: Invalid mathematical expression
+15,4*(16+9),43(16+97,47(16+97,False,False,Error: Invalid mathematical expression,Error: Invalid mathematical expression
+16,9-(2+3),9-(2+3),9-(2+3),True,True,4,4
+17,(10+8)/(7-3),(12182/(7-33,(12182/(7-33,False,False,Error: Invalid mathematical expression,Error: Invalid mathematical expression
+18,72/8+6,72/8+5,72/8+6,False,True,14,15
+19,9-(2+3),9-(2+3),9-(2+3),True,True,4,4
+20,48/6+7*2,4826+7*2,4826+7*2,False,False,4840,4840
+21,35-18,7-18,2-18,False,False,-11,-16
+22,15+3,1*13,1*13,False,False,13,13
+23,2*3,2*3,2*3,True,True,6,6
+24,,129431,124431,,,129431,124431

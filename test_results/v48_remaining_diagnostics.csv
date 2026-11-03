@@ -1,0 +1,22 @@
+testcase,position,segment,output,box,split,paren,shape,star,star_details,closing,closing_details,plus,plus_details,opening,opening_details
+6,0,0,3,"(128, 246, 100, 121)",False,,"100x121 ratio=0.83 components=2 areas=[3170, 12]",False,aspect=0.83,False,"bend=-0.17 centers=[0.75, 0.61, 0.81]",False,cross H=0.64 V=0.37,False,"left-bend=-0.17 centers=[0.75, 0.61, 0.81]"
+6,1,1,6,"(237, 254, 104, 97)",False,,104x97 ratio=1.07 components=1 areas=[3244],False,aspect=1.07,False,aspect=1.07,False,cross H=0.74 V=0.51,False,aspect
+6,2,2,2,"(465, 248, 88, 42)",False,,88x42 ratio=2.10 components=1 areas=[1052],True,"aspect=2.10 arms=6/8 sectors=[213, 0, 0, 275, 50, 100, 107, 200]",False,aspect=2.10,False,aspect,False,aspect
+6,3,3,*,"(509, 342, 16, 15)",False,,16x15 ratio=1.07 components=1 areas=[155],False,aspect=1.07,False,aspect=1.07,False,aspect,False,aspect
+6,4,4,(,"(678, 175, 78, 166)",False,,78x166 ratio=0.47 components=1 areas=[2443],False,aspect=0.47,False,"bend=-0.32 centers=[0.47, 0.06, 0.29]",False,aspect,True,"left-bend=-0.32 centers=[0.47, 0.06, 0.29]"
+6,5,5,3,"(832, 212, 92, 84)",False,,92x84 ratio=1.10 components=1 areas=[2453],False,aspect=1.10,False,aspect=1.10,False,cross H=0.67 V=0.56,False,aspect
+6,6,6,+,"(974, 200, 91, 78)",False,,91x78 ratio=1.17 components=1 areas=[1593],True,"aspect=1.17 arms=6/8 sectors=[0, 210, 1, 223, 55, 136, 55, 101]",False,aspect=1.17,False,cross H=0.58 V=0.92,False,aspect
+6,7,7,3,"(1097, 179, 99, 97)",False,,99x97 ratio=1.02 components=1 areas=[2658],False,aspect=1.02,False,aspect=1.02,False,cross H=0.57 V=0.44,False,"left-bend=-0.23 centers=[0.73, 0.57, 0.87]"
+6,8,8,),"(1198, 127, 113, 174)",False,,113x174 ratio=0.65 components=1 areas=[2767],False,aspect=0.65,True,"bend=0.27 centers=[0.56, 0.92, 0.75]",False,aspect,False,"left-bend=0.27 centers=[0.56, 0.92, 0.75]"
+17,0,0,(,"(202, 241, 71, 118)",False,,71x118 ratio=0.60 components=1 areas=[1871],False,aspect=0.60,False,"bend=-0.20 centers=[0.46, 0.11, 0.17]",False,aspect,True,"left-bend=-0.20 centers=[0.46, 0.11, 0.17]"
+17,1,1,1,"(322, 277, 14, 59)",False,,14x59 ratio=0.24 components=1 areas=[723],False,aspect=0.24,False,aspect=0.24,False,aspect,False,aspect
+17,2,2,2,"(382, 282, 65, 60)",False,,65x60 ratio=1.08 components=1 areas=[1491],False,aspect=1.08,False,aspect=1.08,False,cross H=0.25 V=0.35,False,aspect
+17,3,3,1,"(528, 276, 50, 58)",False,,50x58 ratio=0.86 components=1 areas=[976],False,aspect=0.86,False,"bend=0.01 centers=[0.62, 0.62, 0.6]",True,cross H=0.78 V=1.00,False,"left-bend=0.01 centers=[0.62, 0.62, 0.6]"
+17,4,4,8,"(651, 266, 65, 74)",False,,65x74 ratio=0.88 components=1 areas=[2366],False,aspect=0.88,False,"bend=-0.21 centers=[0.54, 0.42, 0.71]",True,cross H=0.66 V=0.58,False,"left-bend=-0.21 centers=[0.54, 0.42, 0.71]"
+17,5,5,2,"(704, 236, 79, 114)",False,,"79x114 ratio=0.69 components=3 areas=[1824, 233, 167]",False,aspect=0.69,True,"bend=0.27 centers=[0.7, 0.9, 0.56]",False,cross H=0.30 V=0.24,False,"left-bend=0.27 centers=[0.7, 0.9, 0.56]"
+17,6,6,/,"(862, 235, 79, 85)",False,,"79x85 ratio=0.93 components=3 areas=[726, 486, 261]",False,aspect=0.93,False,aspect=0.93,False,cross H=0.92 V=0.52,False,"left-bend=-0.08 centers=[0.58, 0.53, 0.65]"
+17,7,7,(,"(992, 228, 59, 108)",False,,59x108 ratio=0.55 components=1 areas=[1669],False,aspect=0.55,False,"bend=-0.18 centers=[0.44, 0.12, 0.15]",False,aspect,True,"left-bend=-0.18 centers=[0.44, 0.12, 0.15]"
+17,8,8,7,"(1091, 247, 78, 68)",False,,78x68 ratio=1.15 components=1 areas=[1771],False,aspect=1.15,False,aspect=1.15,True,cross H=0.74 V=0.97,False,aspect
+17,9,9,-,"(1218, 266, 55, 17)",False,,55x17 ratio=3.24 components=1 areas=[408],False,aspect=3.24,False,aspect=3.24,False,aspect,False,aspect
+17,10,10,3,"(1269, 226, 78, 75)",False,,"78x75 ratio=1.04 components=2 areas=[1856, 14]",False,aspect=1.04,False,aspect=1.04,False,cross H=0.53 V=0.53,False,"left-bend=-0.04 centers=[0.53, 0.64, 0.83]"
+17,11,11,3,"(1334, 195, 82, 125)",False,,"82x125 ratio=0.66 components=3 areas=[2297, 296, 8]",False,aspect=0.66,True,"bend=0.30 centers=[0.52, 0.89, 0.66]",False,cross H=0.33 V=0.25,False,"left-bend=0.30 centers=[0.52, 0.89, 0.66]"

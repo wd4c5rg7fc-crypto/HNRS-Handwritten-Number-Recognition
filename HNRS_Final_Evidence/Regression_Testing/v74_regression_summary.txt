@@ -1,0 +1,59 @@
+﻿HNRS V7.4 - FINAL REGRESSION TEST SUMMARY
+=========================================
+
+Test Date: 03 November 2026
+Application: HNRS Studio V7.4
+Recognition Mode: Hybrid
+Test Type: Fixed labelled expression regression
+Execution: Standalone regression harness using V7.4 functions
+
+DATASET
+-------
+Total images processed: 24
+Labelled expressions: 23
+Unlabelled images: 1 (testcase24.jpeg)
+Images included in accuracy calculation: 23
+
+RESULTS
+-------
+V5.4 CNN + Rules: 23/23 (100.00%)
+MathCNN:          12/23 (52.17%)
+DualCNN:          17/23 (73.91%)
+V7.4 Hybrid:      23/23 (100.00%)
+
+Hybrid failures: 0
+Processing exceptions: 0
+
+DIGIT DISAGREEMENT ANALYSIS
+---------------------------
+Disagreements: 15 of 87 audited digit segments
+
+V7.4 SINGLE-DIGIT ROUTING
+-------------------------
+Expression images checked: 23
+Single-digit candidates: 0
+Images continuing to Hybrid pipeline: 23
+
+REGRESSION COMPARISON
+---------------------
+V7.3 Hybrid: 23/23
+V7.4 Hybrid: 23/23
+
+No regression was observed on the fixed labelled dataset.
+
+LIMITATIONS
+-----------
+The 23 labelled cases are a fixed development regression
+dataset, not an independent unseen test dataset.
+
+The standalone regression harness tests imported recognition
+functions, not complete GUI interaction.
+
+The unlabelled testcase24.jpeg was excluded from accuracy
+calculations.
+
+CONCLUSION
+----------
+The V7.4 Hybrid recognition pipeline correctly transcribed
+all 23 labelled handwritten expressions in the regression
+suite and maintained the V7.3 baseline performance.
